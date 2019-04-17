@@ -1,14 +1,12 @@
 package ac.za.cput.streetstock.factory;
 
-import ac.za.cput.streetstock.domain.Products;
+import ac.za.cput.streetstock.domain.product.Products;
+import ac.za.cput.streetstock.factory.product.ProductsFactory;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class ProductsFactoryTest
 {
-
     @Test
     public void getProduct()
     {
